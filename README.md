@@ -53,17 +53,36 @@ User Name: `sa`
 User Name: `password`
 
 
+
 Realizado o conect com a base de dados pode-se realizar consultas no banco para confirmar a interação com a base x API
 
 Nesta aplicação foi adicionado o Swagger que é muito utilizado para documentação e ferramenta design para API, através da página disponibilizada para interação com o usuário é possível testar todas as APIS da aplicação diretamente do navegador
 
 `http://localhost:8080/evaluation/swagger-ui/index.html`
 
+![img_2.png](img_2.png)
+
+
 Para auxiliar nos testes também foi criado uma Workspace na aplicação Postman, e para utilizá-la basta importar o arquivo:
 
 `evaluation.postman_collection.json`
 
 Que está localizado na raiz do projeto, em ambas alternativas todos os Endpoints poderão ser testados. 
+
+![img_3.png](img_3.png)
+
+Se preferir, também é possivel execurtar a aplicação utilizando o docker, para isso basta digitar os comandos na raiz do projeto dentro de um terminal:
+
+`docker build -t springio/gs-spring-boot-docker .`
+
+![img.png](img.png)
+
+Quando o comando acima terminar sua execução pode iniciar a aplicação digitando o comando:
+
+`docker run -p 8080:8080 springio/gs-spring-boot-docker`
+
+![img_1.png](img_1.png)
+
 
 Para qualquer dúvida estou à disposição para auxiliar.
 
