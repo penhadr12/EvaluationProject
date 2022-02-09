@@ -13,7 +13,6 @@ public interface EmployeeFactory {
         employee.setSalary(employeeDTO.getSalary());
     }
 
-
     static Employee createEmployee(EmployeeDTO employeeDTO){
         Employee employee = new Employee();
         employee.setName(employeeDTO.getName());

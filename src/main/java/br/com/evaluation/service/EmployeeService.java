@@ -54,7 +54,6 @@ public class EmployeeService {
         return new ReportRangeSalaryDTO(lowest, highest);
     }
 
-
     public ReportRangeAgeDTO getReportAge() throws NotFoundException{
 
         Collection<Employee> collection = (Collection<Employee>) getAll();
